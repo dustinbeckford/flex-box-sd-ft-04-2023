@@ -20,19 +20,22 @@ body {
   display: flex;
   padding: 30px;
   height: fit-content;
-  justify-content: right;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   border: 3px solid black;
 }
 
 .instagram-logo {
   display: flex;
-  width: 500px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
 }
 
 .container {
   text-align: center;
+  width: 180px;
 }
 
 @media (width <= 600px) {
