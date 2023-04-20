@@ -29,17 +29,31 @@ body {
 
 .instagram-logo {
   display: flex;
-  width: 300px;
   height: 300px;
+  padding: 499.833 x 300;
 }
 
 .container {
   text-align: center;
   width: 180px;
+  border-radius: 8px;
+  border: none;
+  border-color: #87ceeb;
 }
 
 @media (width <= 600px) {
   body {
     background-color: #87ceeb;
   }
+
+  .submit {
+  
+    border-radius: 8px;
+    background-color: #87ceeb;
+  }
+
+
+  .username {
+  gap: 1rem;
+  
 }
