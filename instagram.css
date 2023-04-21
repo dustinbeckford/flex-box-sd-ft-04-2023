@@ -1,11 +1,11 @@
 .flex-box1 {
   display: flex;
-  padding: 40px;
-  width: 500px;
-  height: 790px;
+  padding: 50px;
+  width: 640px;
+  height: 760px;
   border: 3px solid #f8f8f8;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 body {
@@ -13,7 +13,7 @@ body {
 }
 
 .iphone1 {
-  width: 5500px;
+  width: 4000px;
   align-items: left;
 }
 
@@ -30,8 +30,8 @@ body {
 
 .instagram-logo {
   display: flex;
-  height: 300px;
-  margin-bottom: 30px;
+  width: auto;
+  height: 9rem;
 }
 
 .container {
@@ -39,7 +39,7 @@ body {
   width: 180px;
   border-radius: 8px;
   border: 1;
-  border-color:  #87ceeb;
+  border-color: #87ceeb;
 }
 
 @media (width <= 600px) {
@@ -64,7 +64,6 @@ body {
   border: none;
   color: white;
   align-content: stretch;
-  border: 1px solid black;
   background-color: #51b1fb;
 }
 
@@ -73,7 +72,6 @@ body {
   justify-content: space-between;
   align-items: center;
   width: 260px;
-  border: 1px solid gray;
 }
 
 .psw {
@@ -86,18 +84,18 @@ body {
   text-decoration: none;
 }
 
-.googleplay{
+.googleplay {
   width: 120px;
   height: auto;
 }
 
-.windows-store{
+.windows-store {
   width: 100px;
   height: auto;
 }
 
-.bottom-images{
-  width: 500px;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid black;
+.bottom-images {
+  width: 330px;
+  justify-content: left;
+  align-items: left;
+}
