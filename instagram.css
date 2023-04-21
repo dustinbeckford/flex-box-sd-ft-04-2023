@@ -1,10 +1,11 @@
 .flex-box1 {
   display: flex;
   padding: 40px;
-  width: 550px;
-  height: auto;
+  width: 500px;
+  height: 790px;
   border: 3px solid #f8f8f8;
   align-items: center;
+  justify-content: center;
 }
 
 body {
@@ -30,30 +31,73 @@ body {
 .instagram-logo {
   display: flex;
   height: 300px;
-  padding: 499.833 x 300;
+  margin-bottom: 30px;
 }
 
 .container {
   text-align: center;
   width: 180px;
   border-radius: 8px;
-  border: none;
-  border-color: #87ceeb;
+  border: 1;
+  border-color:  #87ceeb;
 }
 
 @media (width <= 600px) {
   body {
     background-color: #87ceeb;
   }
-
-  .submit {
-  
-    border-radius: 8px;
-    background-color: #87ceeb;
-  }
-
-
-  .username {
-  gap: 1rem;
-  
 }
+
+.inputfields {
+  width: 100%;
+  height: 4rem;
+  border-radius: 8px;
+  border: none;
+  height: 2rem;
+  border: 1px solid #f8f8f8;
+}
+
+.button {
+  width: 110%;
+  height: 2rem;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  align-content: stretch;
+  border: 1px solid black;
+  background-color: #51b1fb;
+}
+
+.sign-up {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 260px;
+  border: 1px solid gray;
+}
+
+.psw {
+  color: #385185;
+  text-decoration: none;
+}
+
+.facebook {
+  background-color: #385185;
+  text-decoration: none;
+}
+
+.googleplay{
+  width: 120px;
+  height: auto;
+}
+
+.windows-store{
+  width: 100px;
+  height: auto;
+}
+
+.bottom-images{
+  width: 500px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
